@@ -1,15 +1,15 @@
 package domain
 
-import models.clothesView
+import models.ClothesView
 
 class UseCaseImpl (private val repository: Repository) :UseCase{
     override fun getClothesById(id :Long){
         TODO()
     }
-    override fun getClothesByView(view : clothesView){
+    override fun getClothesByView(view : ClothesView){
         TODO()
     }
-    override fun getClothesCount(view: clothesView) :Int{
+    override fun getClothesCount(view: ClothesView) :Int{
         TODO()
     }
 }
